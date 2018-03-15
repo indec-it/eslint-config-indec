@@ -26,15 +26,7 @@ Create a **.eslintrc.json** file in the root folder of your project then add the
 If you work with React you can use the ``react`` configuration:
 ```json
 {
+  "parser": "babel-eslint",
   "extends": "indec/react"
-}
-```
-
-# Configuration for AngularJS
-
-If you work with React you can use the ``angular`` configuration:
-```json
-{
-  "extends": "indec/angular"
 }
 ```
