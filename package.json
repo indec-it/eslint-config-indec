@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-indec",
-  "version": "0.0.1-beta.1",
-  "description": "ESLint rules for Indec.",
+  "version": "0.0.1-beta.2",
+  "description": "ESLint rules for INDEC",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
