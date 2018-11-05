@@ -9,9 +9,7 @@ module.exports = {
         'jsx-a11y',
         'react'
     ],
-    extends: [
-        './index.js'
-    ],
+    extends: 'indec',
     rules: {
         'lodash/prefer-lodash-method': ['error', {
             ignoreMethods: ['assign', 'find', 'map']

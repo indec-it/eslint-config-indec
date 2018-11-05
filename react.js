@@ -1,5 +1,8 @@
 module.exports = {
-    extends: ['airbnb', 'indec'],
+    extends: [
+        'airbnb',
+        'indec'
+    ],
     rules: {
         'no-param-reassign': ['error', {props: false}],
         'promise/prefer-await-to-then': 'error',

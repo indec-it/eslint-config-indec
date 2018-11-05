@@ -1,7 +1,0 @@
-**/.*/
-node_modules/
-coverage/
-.*
-codealike.json
-commitlint.config.js
-yarn.lock

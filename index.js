@@ -1,6 +1,7 @@
 module.exports = {
     plugins: [
-        'lodash'
+        'lodash',
+        'promise'
     ],
     env: {
         es6: true
@@ -9,8 +10,8 @@ module.exports = {
         'airbnb-base',
         'eslint:recommended',
         'plugin:lodash/recommended',
-        './airbnbBaseOverrides.js',
-        './lodashOverrides.js'
+        'plugin:promise/recommended',
+        'indec/overrides'
     ],
     rules: {
         indent: ['error', 4, {SwitchCase: 1}],
