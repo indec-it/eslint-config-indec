@@ -11,7 +11,9 @@ module.exports = {
         'eslint:recommended',
         'plugin:lodash/recommended',
         'plugin:promise/recommended',
-        'indec/overrides'
+        'indec/overrides/airbnbBase',
+        'indec/overrides/lodash',
+        'indec/overrides/promise'
     ],
     rules: {
         indent: ['error', 4, {SwitchCase: 1}],
