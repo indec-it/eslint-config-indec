@@ -7,19 +7,15 @@ module.exports = {
         es6: true
     },
     extends: [
-        'airbnb-base',
         'eslint:recommended',
+        'airbnb-base',
         'plugin:lodash/recommended',
         'plugin:promise/recommended',
-        'indec/overrides/airbnbBase',
+        'indec/overrides/airbnb-base',
         'indec/overrides/lodash',
         'indec/overrides/promise'
     ],
     rules: {
-        indent: ['error', 4, {SwitchCase: 1}],
-        'prefer-const': ['error'],
-        quotes: ['error', 'single'],
-
         'lodash/prefer-lodash-method': ['error', {
             ignoreMethods: ['assign', 'find']
         }]

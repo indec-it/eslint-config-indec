@@ -8,6 +8,8 @@ module.exports = {
         ecmaVersion: 2018
     },
     rules: {
-        'lodash/prefer-lodash-method': ['error', {ignoreMethods: ['find']}]
+        'lodash/prefer-lodash-method': ['error', {
+            ignoreMethods: ['find']
+        }]
     }
 };
